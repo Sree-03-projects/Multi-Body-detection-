@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Heavy Datasets (Do not upload patient raw images!)
+/spine_png/
+/spine_json/
+/mura/
+/chest_raw/
+
+# Virtual environments
+venv/
+.env
+
+# Model weights
+*.pth
